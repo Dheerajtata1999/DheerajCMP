@@ -27,7 +27,7 @@ import com.example.dheeraj_cmp.ui.theme.Dheeraj_cmpTheme
 fun BirthdayCardScreen() {
     Dheeraj_cmpTheme {
         Surface(modifier = Modifier.fillMaxSize(),color = MaterialTheme.colorScheme.background) {
-            Greeting( "Happy Birthday Sam!", from = "From Emma", Modifier.fillMaxSize())
+            Greeting( stringResource(R.string.happy_birthday_text), from = stringResource(R.string.signature_text), Modifier.fillMaxSize())
         }
     }
 }
